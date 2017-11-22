@@ -23,7 +23,7 @@ function draw() {
   if (keyIsPressed == true) {
 
 
-    image(capture, 150 , 100, 300, 350 );
+    image(capture, 130, 140, 200, 250);
 
 
   } else {
@@ -34,7 +34,7 @@ textFont('Trebuchet');
   fill(255);
   textSize(15);
   text('Bee quiet to see her better... Is it really Marilyn?', 100, 0, 150, 200);
-text('PRESS to discover it!', 300, 17, 150, 250);
+  text('PRESS to discover it!', 300, 17, 150, 250);
 
     for (var i = 0; i < 100; i++) {
       var x = random(width);
