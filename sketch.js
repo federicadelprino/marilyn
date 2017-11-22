@@ -24,6 +24,7 @@ function draw() {
 
 
     image(capture, 130, 140, 200, 250);
+filter(POSTERIZE, 5);
 
 
   } else {
