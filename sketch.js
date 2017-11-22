@@ -2,7 +2,7 @@ var mic;
 var volume;
 
 function preload() {
-  img = loadImage('./assets/marilyn.jpg');
+  img = loadImage("./assets/marilyn.jpg");
 }
 
 function setup() {
